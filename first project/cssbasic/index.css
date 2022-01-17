@@ -1,0 +1,11 @@
+p{
+    color: blue;
+}
+/* psuedo element selector  */
+/* if we need to change the content after loading we use pseudo selector, it doesnot need any interaction but it overwrites the css and make the changes, but pseudo class selector need some interaction to make the change */
+P::first-letter{
+    color: purple;
+    font-size: 40px;
+}
+
+/* we can combine more than few things with the selector */

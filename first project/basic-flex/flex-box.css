@@ -1,0 +1,39 @@
+body{
+    background: #000;
+    font-size: 30px;
+    color: white;
+}
+.main{
+    background: blue;
+    padding: 10px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.main > div{
+    background: grey;
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    
+    /* flex  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main > div:nth-child(odd){
+background: red;
+height: 100px;
+}
+.item-2{
+    align-self:flex-end;
+}
+.item-4{
+    order: -1;
+}
+.item-3{
+    order: -2;
+}

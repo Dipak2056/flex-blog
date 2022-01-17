@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orangered;
+}
+.card{
+    width: 250px;
+    min-height: 300px;
+    background: white;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px ;
+    padding: bottom 32px;
+    margin:10px 5px;
+}
+.container {
+    width:80%;
+    margin: auto;
+}
+input{
+    line-height: 30px;
+    padding: 10px;
+    border: rgb(231, 108, 108) solid 1px;
+    border-radius: 10px;
+}
+[type="submit"]{
+    background:orangered;
+    color:white;
+}
+/* wrapper  */
+.wrapper{
+    background:antiquewhite;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* global message  */
+.global-message{
+background: rgb(213, 230, 69);
+padding: 10px 0px ;
+}
+.global-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.social > i {
+    margin-right: 10px;
+}
+/* top nav bar  */
+.nav-bar{
+    background:rgb(220, 224, 213);
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    margin-right: 20px;
+    cursor:pointer;
+}
+.menu ul li:hover {
+    color:rgb(135, 107, 211);
+    font-weight: bold;
+    font-size: larger;
+}
+.logo {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+/* //hero class selection  */
+.hero {
+    background:url(./photos/mountain.jpg);
+    width:100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black
+}
+.hero-content{
+    background: rgb(231, 218, 218);
+    opacity:70%;
+    border-radius: 5px;
+    padding: 10px 30px; 
+}
+/* latest post section  */
+.latest{
+    display: flex;
+    margin-top:32px;
+}
+.latest section {
+width:66%;
+background: rgb(235, 231, 231);
+
+}
+.latest aside{
+    width:33%;
+    background: rgba(203, 204, 196, 0.973);
+}
+.latest h3 {
+    text-transform: uppercase;
+    color:rgba(175, 106, 106, 0.863);
+    position: relative;
+    left:100px;    
+}
+footer{
+    background:black;
+    height: 100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 32px;
+}
+.post-content{
+    display: flex;
+    flex-direction: row;
+    }
+.post-content img{
+    width: 150px;
+    border: #000 2px solid;
+    border-radius: 5px;
+}
+.post-content img:hover{
+    width: 170px;
+    box-shadow:5px 10px 5px 5px rgba(202, 181, 181,0.3);
+    transition: ease-in;
+    transition-duration: .2s;
+}
+.info{
+    margin:0 20px;
+}
+.readMore,.btn-card{
+    background: orangered;
+    font-size: 22px;
+    padding: 8px 15px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 5px;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+article{
+    margin-top: 32px;
+}
+/* sidebar css */
+aside{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: rgba(219, 209, 209, 0.3);
+}
+aside ul {
+    font-weight: bold;
+}
+.by-date{
+    margin-bottom: 80px;
+    }
+
+/* recommendation section  */
+.rec{
+    background: rgba(219, 164, 164, 0.3);
+    padding: 20px;
+    margin-top: 32px;
+}
+.rec-card {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+/* subscribe  */
+.subscribe{
+    padding:50px 0px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
